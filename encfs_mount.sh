@@ -21,7 +21,7 @@ done
 
 #Ask for volumes to mount
 
-IFS=" " read -rpa "Enter numbers, space separated (Ex: 1 2 3...): " mount_nums
+IFS=" " read -rp "Enter numbers, space separated (Ex: 1 2 3...): " mount_nums
 
 #Mount volumes
 
